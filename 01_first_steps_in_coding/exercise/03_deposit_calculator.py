@@ -1,0 +1,5 @@
+deposit_sum = float(input())
+term = int(input())
+percent = float(input())
+t_sum = deposit_sum + term * ((deposit_sum * percent / 100) / 12)
+print(t_sum)
